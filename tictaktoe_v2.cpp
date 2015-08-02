@@ -208,9 +208,11 @@ public:
 
 	void playGame() {
 		char check;
+
+		//draw current position
 		this->drawMatrix();
+
 		while (1) {
-			//draw current position
 			this->takeUserInput();
 			check = this->checkForWin();
 			this->drawMatrix();
