@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class TicTakToe
+class TicTacToe
 {
 
 private:
@@ -227,13 +227,13 @@ public:
 			
 		}
 	}
-	~TicTakToe();
+	~TicTacToe();
 };
 
 
 int main() {
 	TicTakToe *t;
-	t = new TicTakToe();
+	t = new TicTacToe();
 	t->playGame();
 	return 0;
 }
