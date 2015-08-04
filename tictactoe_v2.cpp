@@ -232,7 +232,7 @@ public:
 
 
 int main() {
-	TicTakToe *t;
+	TicTacToe *t;
 	t = new TicTacToe();
 	t->playGame();
 	return 0;
